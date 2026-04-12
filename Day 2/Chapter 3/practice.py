@@ -1,5 +1,5 @@
 name=input("Enter your name: \t")
-print(f"Good Afternoon, {name}")
+print(f"Good Afternoon, {name}\n")
 
 
 letter ='''Dear {name1},
@@ -9,7 +9,9 @@ Please report on time and bring all necessary documents.
 Best regards,  
 ABC Company'''
 
-print(letter.replace("{name1}", "Shafkat").replace("{date}","12 April 2026"))
+print(letter.replace("{name1}", name).replace("{date}","12 April 2026"))
+
+
 
 
 text= "He is a  student"
