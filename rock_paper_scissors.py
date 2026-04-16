@@ -16,12 +16,12 @@ if user not in list:
 elif user == Bot:
     print("It's a draw!")
 
-#winning conditions for the user
+#Winning Conditions for the user
 elif (user == "Rock" and Bot == "Scissors") or \
      (user == "Paper" and Bot == "Rock") or \
      (user == "Scissors" and Bot == "Paper"):
     print("You win!")
 
-#Lossing vondition
+#Lossing Condition
 else:
     print("Bot🤖 wins! ")
